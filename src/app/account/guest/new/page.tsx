@@ -1,7 +1,6 @@
 "use client";
-
-import SignupForm from "./components/SignupCompo";
-import { useSignupForm } from "./hooks/useSignupForm";
+import SignupForm from "@/components/(account)/guest/new/SignupCompo";
+import { useSignupForm } from "@/hooks/(account)/guest/new/useSignupForm";
 
 export default function Signup() {
   // 커스텀 훅을 사용하여 상태와 로직을 분리

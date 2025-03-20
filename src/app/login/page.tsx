@@ -64,7 +64,7 @@ export default function RegisterPage() {
           </div>
           {/* 버튼들 */}
           <div className="mt-6">
-            <Link href="/account/guest/templates/create_guest" className="w-full block">
+            <Link href="/account/guest/new" className="w-full block">
               <button className="w-full bg-yellow-400 text-black py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors">
                 회원가입
               </button>
